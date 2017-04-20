@@ -1,0 +1,44 @@
+	{ margin:0; padding:0; }
+	header {
+		position: fixed;
+		height: 75px;
+		width: 960px;
+		top: 0;
+		background-color: #ffffff;
+		border-color: #cccccc;
+	}
+
+	#allcontent {
+		width: 960px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.content {
+		padding-top: 75px;
+	}
+
+	#name {
+		height: 70px;
+		background-color:#4aaaa5;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		font-size: 24px;
+		width: 150px;
+		margin-top: 5px;
+		float: left;
+		display: table;
+	}
+	.center {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+		color: white;
+	}
+
+	#Links {
+		margin-top: 30px;
+		float: right;
+		display: inline-block;
+		vertical-align: center;
+		color: #777777;
+	}
