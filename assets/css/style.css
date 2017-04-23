@@ -12,6 +12,7 @@
 		margin: 0;
 		padding: 0;
 		background-image: url("../../upfeathers.png");
+
 		}
 
 	header {
@@ -24,6 +25,8 @@
 	}
 
 	#allcontent {
+		min-height: 100%;
+		margin-bottom: -50px;
 	}
 
 	#aboutmetitle {
@@ -34,6 +37,8 @@
 
 	}
 	.aboutme {
+		border: 1px solid;
+		border-color: #dddddd;
 		padding: 5px;
 		display: inline;
 		height: 450px;
@@ -83,6 +88,8 @@
 	}
 
 	.connect {
+		border: 1px solid;
+		border-color: #dddddd;
 		position: fixed;
 		padding-left: 10px;
 		padding-top: 5px;
@@ -131,6 +138,55 @@
 }
 
 .contactme {
-	
+	border: 1px solid;
+	border-color: #dddddd;
+	padding: 5px;
+	display: inline;
+	height: 450px;
+	width: 600px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: 75px;
+    margin-right: 0px;
+    float: left;
+    background-color: #ffffff;
+	}
+.contacttitle {
+	padding: 10px;
+	color: #4aaaa5;
+	font-size: 30px;
+	font-family: 'Arial', Helvetica, sans-serif;
+}
+
+.portfolio {
+	border: 1px solid;
+	border-color: #dddddd;
+	padding: 5px;
+	display: inline;
+	height: 450px;
+	width: 600px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: 75px;
+    margin-right: 0px;
+    float: left;
+    background-color: #ffffff;	
+}
+.porttitle {
+	padding: 10px;
+	color: #4aaaa5;
+	font-size: 30px;
+	font-family: 'Arial', Helvetica, sans-serif;
+}
+
+footer {
+	height: 40px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 5px;
+	background-color: #666666;
+	text-align: center;
 }
 </style>
